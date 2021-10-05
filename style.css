@@ -63,9 +63,9 @@ p {
   margin: 0;
 }
 
-
+/* My problem with this solution is that there is overflow down the bottom of the screen, creating an unnecessary scrollbar. I want it to fill the rest of the viewport without overflowing off the screen. I feel like flexbox will do it but I'm not sure how. */
 .bottom {
-  padding-bottom: 25%;
+  padding-bottom: 50vh;
   border: black 0.15em solid;
   background-color: var(--primary);
 }
@@ -89,7 +89,7 @@ p {
 
 }
 
-@media all and (max-width: 530px) {
+@media all and (max-width: 750px) {
 
   .container {
     margin: 0%;
