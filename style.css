@@ -26,8 +26,7 @@ p {
 }
 
 .article {
-  padding-top: 5%;
-  padding-left: 5%;
+  padding-left: 15%;
   padding-right: 5%;
   max-width: 50%;
 }
@@ -45,12 +44,13 @@ p {
 .container {
   display: flex;
   align-items: center;
+  margin: 10rem;
 }
-
-.navbar {}
 
 .navbar-item {
   margin: 3em;
+  max-width: 50%;
+  font-size: small;
 }
 
 .image {
@@ -61,4 +61,26 @@ p {
 
 .nav-article {
   margin: 0;
+}
+
+
+.bottom {
+  padding: 10rem;
+  border: black 0.15em solid;
+  background-color: var(--primary);
+}
+
+@media all and (max-width: 1100px) {
+
+  .container {
+    margin: 1%;
+    padding: 1%;
+    align-items: flex-start;
+  }
+
+  .article {
+    font-size: larger;
+    padding: 5%;
+  }
+
 }
