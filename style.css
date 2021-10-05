@@ -1,0 +1,35 @@
+:root {
+  --primary: rgb(28, 69, 135);
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+.banner {
+  background-color: var(--primary);
+  color: white;
+  display: flex;
+  justify-content: center;
+  border: black 0.15em solid;
+  font-size: larger;
+}
+
+.coolSite {
+  margin: 0.2em;
+}
+
+.article {
+  padding-top: 5%;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.designers {
+  border-top: rgb(190, 190, 255) solid 2em;
+}
