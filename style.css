@@ -65,7 +65,7 @@ p {
 
 /* My problem with this solution is that there is overflow down the bottom of the screen, creating an unnecessary scrollbar. I want it to fill the rest of the viewport without overflowing off the screen. I feel like flexbox will do it but I'm not sure how. */
 .bottom {
-  padding-bottom: 50vh;
+  padding-bottom: 35vh;
   border: black 0.15em solid;
   background-color: var(--primary);
 }
