@@ -44,7 +44,7 @@ p {
 .container {
   display: flex;
   align-items: center;
-  margin: 10rem;
+  margin: 4rem;
 }
 
 .navbar-item {
@@ -65,7 +65,7 @@ p {
 
 
 .bottom {
-  padding: 10rem;
+  padding-bottom: 25%;
   border: black 0.15em solid;
   background-color: var(--primary);
 }
@@ -78,9 +78,41 @@ p {
     align-items: flex-start;
   }
 
+  .navbar-item {
+    margin: 85px;
+  }
+
   .article {
     font-size: larger;
     padding: 5%;
+  }
+
+}
+
+@media all and (max-width: 530px) {
+
+  .container {
+    margin: 0%;
+    padding: 0%;
+    align-items: flex-start;
+  }
+
+  .navbar-item {
+    margin: 50px;
+  }
+
+  .article {
+    font-size: larger;
+    padding: 1%;
+  }
+
+  .banner {
+    background-color: var(--primary);
+    color: white;
+    display: flex;
+    justify-content: center;
+    border: black 0.15em solid;
+    font-size: small;
   }
 
 }
