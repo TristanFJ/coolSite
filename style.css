@@ -1,5 +1,5 @@
 :root {
-  --primary: rgb(28, 69, 135);
+  --primary: hsl(217, 66%, 32%);
 }
 
 body {
@@ -31,5 +31,20 @@ p {
 }
 
 .designers {
-  border-top: rgb(190, 190, 255) solid 2em;
+  border-top: hsl(217, 66%, 90%) solid 0.75em;
+  font-size: x-large;
+  padding-left: 0.5em;
 }
+
+.content {
+  padding-left: 2em;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar {}
+
+.navbar-item {}
